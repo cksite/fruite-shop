@@ -73,8 +73,8 @@ const generatePDF = (billData, customer) => {
     doc.text(`Total Price: Rs ${total.toFixed(2)}`, margin, doc.autoTable.previous.finalY + 10);
 
     // Add contact information and owner details
-    const contactInfo = 'Contact: 6203891182';
-    const ownerName = 'Owner: Niraj Keshri';
+    const contactInfo = 'Contact: 1234567890';
+    const ownerName = 'Owner: your name';
     doc.setFontSize(smallFontSize);
     doc.setFont('helvetica', 'normal');
     
